@@ -1,0 +1,26 @@
+# ---- Keil / MDK-ARM 编译产物（不要提交） ----
+Led/MDK-ARM/Led/
+Led/MDK-ARM/DebugConfig/
+Led/MDK-ARM/*.uvguix.*
+Led/MDK-ARM/*.uvopt.bak
+Led/MDK-ARM/*.dep
+Led/MDK-ARM/*.lst
+Led/MDK-ARM/*.scvd
+Led/MDK-ARM/JLinkLog.txt
+Led/MDK-ARM/EventRecorderStub.scvd
+*.axf
+*.o
+*.d
+*.crf
+*.map
+*.lnp
+*.sct
+*.htm
+*.build_log.htm
+
+# ---- 编辑器 / 系统垃圾 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+~$*
